@@ -104,3 +104,44 @@ body header img{
           flex-direction: row;
       }
   }
+
+  @media screen and (prefers-reduced-motion){
+    body header img{animation: none;}
+  }
+
+@media print{
+    body{
+        background-image: none;
+    }
+    
+    .pricing{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+
+    }
+
+    a .skip #skip{
+        display: none;
+    }
+
+    .card{
+        display: flex;
+        border: 2px;
+        border-color: #45addd;
+        flex-basis: 250px
+    }
+
+    .gallery{
+        display: none;
+    }
+
+    nav {
+        align-content: center;
+        justify-content: space-between;
+    }
+    .nav_links{
+        flex-direction: row;
+        justify-self: flex-end;
+    }
+    }
