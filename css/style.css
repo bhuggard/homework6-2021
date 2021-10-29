@@ -120,31 +120,31 @@ body header img{
     .pricing{
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
-
+        align-self: flex-end;
     }
 
-    a .skip #skip{
+    a{
         display: none;
     }
 
-    .card{
-        display: flex;
-        border: 2px;
+    .card{ 
+        border-style: solid;
+        border-width: 2px;
         border-color: #45addd;
-        flex-basis: 250px
+        flex-basis: 250px;
+        align-self: flex-end;
     }
+
+    li:before{
+        content: \1F44D;
+    }
+    /* this is super great for me!! it totally shows up! */
 
     .gallery{
         display: none;
     }
 
-    nav {
-        align-content: center;
-        justify-content: space-between;
-    }
-    .nav_links{
-        flex-direction: row;
-        justify-self: flex-end;
+    nav{
+        /* WHY ARENT YOU SHOWING UP */
     }
     }
