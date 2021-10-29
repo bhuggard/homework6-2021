@@ -144,6 +144,10 @@ body header img{
         display: none;
     }
 
+    #gallery{
+        display: none;
+    }
+
     nav{
         /* WHY ARENT YOU SHOWING UP */
     }
