@@ -33,11 +33,14 @@ header{
 }
 
 
+
 .pricing{
     display: flex;
     flex-direction: column;
     align-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .card{
